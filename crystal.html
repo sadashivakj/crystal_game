@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector !</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+	<header> <h1> Welcome to Crystal Collector Game ! </h1> </header>
+	<br>
+	<!-- Copied this text from the assignment sheet from git hub -->
+	<div id="content">
+		<p>You will be given a random number at the start of the game.
+		There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+		You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+		The value of each crystal is hidden from you until you click on it.
+		Each time the game starts, the game will change the values of each crystal.  
+	</div>
+
+	<div id="connect">
+		<img id="red" src="assets/images/red.jpg" width="200px" height="200px">
+		<img id="blue" src="assets/images/blue.jpg" width="200px" height="200px">
+		<img id="green" src="assets/images/green.jpg" width="200px" height="200px">
+		<img id="pink" src="assets/images/pink.jpg" width="200px" height="200px">
+	</div>
+
+	<div id="connect">	
+		<h3> Random Number To be matched </h3> <h3 id="targetNumber"> </h3>
+		<h3> win </h3> <h3 id="win"></h3>
+		<h3> lose </h3> <h3 id="lose"> </h3>
+		<h3> Total Score: </h3> <h3 id="totalScore"> </h3>
+		<h3> Current Score </h3> <h3 id="currentScore"> </h3>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
